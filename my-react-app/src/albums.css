@@ -1,0 +1,31 @@
+.albums {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 300px;
+    border: 1px solid #353535;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.10);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.cover-img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.albums .album-title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.albums .album-desc {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+}
