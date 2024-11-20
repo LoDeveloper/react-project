@@ -1,14 +1,15 @@
-import muse from "../assets/museAlbum.jpg";
 import "../albums.css";
 
-function Albums() {
+function Albums(props) {
     return (
         <div className="albums">
-            <img src={muse} alt="item one" className="cover-img" />
-            <h2 className="album-title" >Album name</h2>
-            <p className="album-desc">This is a music album</p>
+            <img src={props.imageSrc} alt="Album Cover" className="cover-img" />
+            <h2 className="album-title">{props.title}</h2>
+            <p className="album-desc">{props.albumName}</p>
+            <p className="price">{props.price}</p>
         </div>
-    )
+    );
 }
 
 export default Albums;
+
