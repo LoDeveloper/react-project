@@ -31,9 +31,11 @@
     font-weight: 900;
     font-size: 16px;
     color: #ffa8de;
+    padding: 5px;
 }
 
 .price {
     color: #fff3fb;
     font-weight: 900;
+    margin: 5px;
 }
