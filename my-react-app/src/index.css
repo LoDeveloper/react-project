@@ -1,5 +1,5 @@
 * {
-box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -9,5 +9,4 @@ body {
     height: 100vh;
     padding: 5%;
     display: flex;
-    justify-content: space-between;
 }
