@@ -4,6 +4,7 @@ import Home from "./Pages/Home.jsx";
 import Store from "./Pages/Store.jsx";
 import About from "./Pages/About.jsx";
 import Navbar from "./Navbar.jsx";
+import Footer from "./Components/Footer.jsx";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
                     <Route path="/about" element={<About/>}/>
                 </Routes>
             </BrowserRouter>
+            <Footer />
         </>
     );
 }

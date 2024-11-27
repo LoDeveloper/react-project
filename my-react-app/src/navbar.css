@@ -1,25 +1,24 @@
 .navbar {
     background-color: #ffa8de;
     display: flex;
-    position: absolute;
     width: 100%;
     height: 83px;
 
     .nav-links {
+        padding: 10px;
         display: flex;
         justify-content: flex-start;
         align-items: center;
         gap: 20px;
         list-style: none;
-        text-decoration: none;
         }
   
   
-     .li {
+    .li {
     text-decoration: none;
-    justify-content: flex-end;
     font-size: 14px;
+    font-weight: 900;
     }
-  
-  
+
+ 
 }

@@ -11,12 +11,12 @@ function Counter() {
     const reset = () => setCount(0);
 
     return (
-        <div style={{ textAlign: 'center', margin: '20px' }}>
+        <div class="counter-box">
             <h1>Counter</h1>
             <h2>{count}</h2>
-            <button onClick={up} style={{ margin: '5px' }}>Up</button>
-            <button onClick={down} style={{ margin: '5px' }}>Down</button>
-            <button onClick={reset} style={{ margin: '5px' }}>Reset</button>
+            <button onClick={up}>Up</button>
+            <button onClick={down}>Down</button>
+            <button onClick={reset}>Reset</button>
         </div>
     );
 }
