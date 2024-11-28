@@ -5,6 +5,7 @@ import Store from "./Pages/Store.jsx";
 import About from "./Pages/About.jsx";
 import Navbar from "./Navbar.jsx";
 import Footer from "./Components/Footer.jsx";
+import ColorPicker from "./Pages/ColorPicker.jsx";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
                     <Route path="/" element={<Home/>}/>
                     <Route path="/store" element={<Store/>}/>
                     <Route path="/about" element={<About/>}/>
+                    <Route path="/color-picker" element={<ColorPicker />} />
                 </Routes>
             </BrowserRouter>
             <Footer />
