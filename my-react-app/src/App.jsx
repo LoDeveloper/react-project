@@ -6,6 +6,7 @@ import About from "./Pages/About.jsx";
 import Navbar from "./Navbar.jsx";
 import Footer from "./Components/Footer.jsx";
 import ColorPicker from "./Pages/ColorPicker.jsx";
+import TodoList from "./Pages/TodoList.jsx";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
                     <Route path="/store" element={<Store/>}/>
                     <Route path="/about" element={<About/>}/>
                     <Route path="/color-picker" element={<ColorPicker />} />
+                    <Route path="/todo-list" element={<TodoList />} />
                 </Routes>
             </BrowserRouter>
             <Footer />
